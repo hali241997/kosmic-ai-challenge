@@ -37,11 +37,6 @@ const StyledBackButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-// background: linear-gradient(90deg, #523FD7 -20.19%, #FF7DFF 168.46%);
-// background-clip: text;
-// -webkit-background-clip: text;
-// -webkit-text-fill-color: transparent;
-
 const StyledNextButton = styled(Button)(({ theme }) => ({
   width: 234,
   height: 52,
@@ -58,7 +53,7 @@ const StyledNextButton = styled(Button)(({ theme }) => ({
 
 const LinearGradientText = styled(Typography)(({ theme }) => ({
   background: "linear-gradient(90deg, #523FD7 -20.19%, #FF7DFF 168.46%)",
-  "-webkit-background-clip": "text",
+  WebkitBackgroundClip: "text",
   color: "transparent",
 }));
 
